@@ -192,13 +192,9 @@ const PAGES = {
 
 'ill-petitefrappe':{cat:'c2',title:'Petite frappe',sub:"Activité illégale avec validation et territoire reconnu.",content:
   sec('🎭','Définition',
-      p("Agit seule ou en groupe non officiel, sans validation staff ni territoire. Premier niveau naturel d'entrée dans le RP illégal."))
-  + sec('⚖️','Libertés',
-      p("Plus de souplesse dans les scènes, pas de dossier à déposer. En contrepartie : aucune protection de territoire ni accès aux avantages des groupes officiels."))
-  + sec('🚧','Limites',
-      p("Pas de trafic d'envergure, pas de revendication de quartier opposable à un gang officiel. Plafonds de rançon et de loot identiques."))
+      p("Agit en groupe officiel, avec validation staff et territoire. Premier niveau naturel d'entrée dans le RP illégal."))
   + sec('📈','Évolution possible',
-      p("Une petite frappe stable et cohérente peut constituer un dossier pour demander la reconnaissance en tant que groupe officiel."))
+      p("Une petite frappe stable et cohérente peut constituer un dossier pour demander la reconnaissance en tant que gang."))
 },
 
 'ill-independant':{cat:'c2',title:'Indépendant',sub:"Le joueur illégal en solo, sans aucune affiliation.",content:
@@ -208,8 +204,6 @@ const PAGES = {
       p("Mêmes obligations qu'une petite frappe (loot, rançon). Pas d'accès aux ressources des groupes officiels : territoire, trafic d'envergure, activités encadrées staff."))
   + sec('🛡️','Vulnérabilité assumée',
       p("Agir seul comporte des risques RP plus importants. Cette vulnérabilité fait partie du rôle et ne constitue pas un motif de réclamation en cas de confrontation défavorable."))
-  + sec('🎯','Cohérence requise',
-      p("Le statut doit rester cohérent dans la durée. Un changement radical de comportement sans justification RP solide peut être remis en question par le staff."))
 },
 
 'ill-conflit':{cat:'c3',title:'Conflits & guerres',sub:"Le cadre des affrontements prolongés entre groupes.",content:
@@ -226,7 +220,7 @@ const PAGES = {
 
 'ill-braquage':{cat:'c3',title:'Braquages & trafic',sub:"Les opérations lucratives encadrées par des règles précises.",content:
   sec('🏦','Braquages',
-      ul(["Délai minimum entre deux braquages du même lieu.",
+      ul(["Délai minimum entre deux braquages du même lieu pour les braquges suivants : .",
           "Nombre de participants pouvant être limité selon l'ampleur de l'opération.",
           "Une chance d'intervention réelle pour les forces de l'ordre doit toujours exister.",
           "Prise d'otage lors d'un braquage : soumise aux règles de la section dédiée."]))
